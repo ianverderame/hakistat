@@ -1,0 +1,22 @@
+  body {
+      background-color: #121212;
+      color: #fff;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 { font-size: 3em; }
+    p { color: #bbb; }
+    img {
+      max-width: 300px; /* smaller image */
+      height: auto;
+      border-radius: 8px;
+    }
+    iframe {
+      margin-top: 20px;
+      border: none;
+      border-radius: 8px;
+    }
