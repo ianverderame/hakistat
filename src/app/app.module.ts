@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './components/about/about.component';
 import { PointsComponent } from './components/points/points.component';
 import { HttpClientModule } from '@angular/common/http';
 
