@@ -1,0 +1,41 @@
+:host {
+  display: block;
+  background-color: #4b0082; /* deep purple */
+  color: #7fff00;            /* chartreuse green */
+  padding: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Headline */
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+th {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './about/about.component';
-import { PointsComponent } from './points/points.component';
+import { PointsComponent } from './components/points/points.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },

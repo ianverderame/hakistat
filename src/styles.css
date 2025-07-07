@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+/* === Global Theming === */
+
+body {
+  margin: 0;
+  background-color: #4b0082;   /* deep purple */
+  color: #7fff00;              /* chartreuse green */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Make sure links match the theme */
+a {
+  color: #7fff00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 4px #aaff00;
+  color: #adff2f;
+}
+
+/* Tables across the app */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem auto;
+  color: #7fff00;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+thead {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Navbar override if using Bootstrap */
+.navbar {
+  background-color: #4b0082 !important;
+  color: #7fff00 !important;
+  border-bottom: 2px solid #7fff00;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #7fff00 !important;
+}
+
+.navbar .nav-link:hover {
+  color: #adff2f !important;
+  text-shadow: 0 0 3px #adff2f;
+}
