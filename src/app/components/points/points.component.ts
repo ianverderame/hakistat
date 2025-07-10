@@ -20,8 +20,8 @@ export class PointsComponent implements OnInit {
       { noob: 'spaceman', score: 145, rank: 'Pred', elbowCount: 2, kneeCount: 2, feetCount: 2 },
       { noob: 'proph', score: 144, rank: 'Masters', elbowCount: 2, kneeCount: 2, feetCount: 2 },
       { noob: 'zboy', score: 118, rank: 'Masters', elbowCount: 2, kneeCount: 2, feetCount: 2 },
-      { noob: 'jakoby', score: 103, rank: 'Masters', elbowCount: 2, kneeCount: 2, feetCount: 2 },
-      { noob: 'kaido', score: 92, rank: 'Diamond', elbowCount: 2, kneeCount: 2, feetCount: 2 },
+      { noob: 'kaido', score: 109, rank: 'Masters', elbowCount: 2, kneeCount: 2, feetCount: 2 },
+      { noob: 'jakoby', score: 103, rank: 'Diamond', elbowCount: 2, kneeCount: 2, feetCount: 2 },
       { noob: 'brode', score: 73, rank: 'Diamond', elbowCount: 2, kneeCount: 2, feetCount: 2 },
       { noob: 'haki', score: 65, rank: 'Diamond', elbowCount: 2, kneeCount: 2, feetCount: 2 },
       { noob: 'dirtyverdy', score: 43, rank: 'Diamond', elbowCount: 2, kneeCount: 2, feetCount: 2 },
@@ -43,7 +43,8 @@ export class PointsComponent implements OnInit {
       { noob: 'pgk', score: 9, rank: 'Rookie', elbowCount: 2, kneeCount: 2, feetCount: 2 },
       { noob: 'lumdum', score: 5, rank: 'Rookie', elbowCount: 2, kneeCount: 2, feetCount: 2 },
       { noob: 'hova', score: 2, rank: 'Rookie', elbowCount: 2, kneeCount: 2, feetCount: 2 },
-      { noob: 'toasty', score: -240, rank: 'Toasty', elbowCount: 2, kneeCount: 2, feetCount: 2 }
+      { noob: 'toasty', score: -290, rank: 'Toasty', elbowCount: 2, kneeCount: 2, feetCount: 2 }
     ];
+
   }
 }
