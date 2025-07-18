@@ -8,6 +8,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about.component';
 import { PointsComponent } from './components/points/points.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,12 +18,14 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     HeaderComponent,
     AboutComponent,
-    PointsComponent
-  ],
+    PointsComponent,
+    LoginComponent,
+    RegisterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

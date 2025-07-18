@@ -1,0 +1,87 @@
+.registration-container {
+  max-width: 480px;
+  margin: 80px auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid #7fff00;
+  border-radius: 8px;
+  color: #7fff00;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  box-shadow: 0 0 12px #7fff00;
+}
+
+.registration-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #adff2f;
+  text-shadow: 0 0 5px #aaff00;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.registration-form label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 0.95rem;
+  color: #7fff00;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border-radius: 4px;
+  border: 1px solid #7fff00;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #7fff00;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.registration-form input::placeholder {
+  color: #aaff00;
+  opacity: 0.7;
+}
+
+.registration-form button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #4b0082;
+  border: 2px dashed #7fff00;
+  color: #7fff00;
+  cursor: not-allowed;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  opacity: 0.6;
+}
+
+.denial-message {
+  margin-top: 2rem;
+  padding: 1.2rem;
+  border-top: 1px dashed #7fff00;
+}
+
+.denial-message h2 {
+  font-size: 1.3rem;
+  color: #ff69b4;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 3px #ff69b4;
+}
+
+.highlight {
+  color: #ff1493;
+  font-weight: bold;
+  text-shadow: 0 0 5px #ff1493;
+}
+
+.emphasis-message {
+  font-style: italic;
+  color: #d3ffd3;
+  font-size: 0.9rem;
+  margin-top: 0.4rem;
+}
