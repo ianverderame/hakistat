@@ -1,5 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
 /* === Global Theming === */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.fancy-banner {
+  font-family: 'Dancing Script', cursive;
+  background: linear-gradient(135deg, #0db47a, #f39aff);
+  color: #1e3d38;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.8rem 2.5rem;
+  border-radius: 1.8rem;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+  border: 2px solid #f39aff;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.fancy-banner::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 80%);
+  animation: sparkle 3s linear infinite;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.fancy-banner:hover {
+  transform: scale(1.02);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+}
+
+.sparkle-text {
+  position: relative;
+  z-index: 2;
+  animation: pulseText 2s ease-in-out infinite;
+}
+
+.fancy-banner h2 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.fun-icons {
+  margin-top: 0.5rem;
+  font-size: 1.8rem;
+}
+
+/* Sparkle animation background */
+@keyframes sparkle {
+  0% { transform: rotate(0deg) translateX(0); opacity: 0.6; }
+  50% { transform: rotate(180deg) translateX(10%); opacity: 0.9; }
+  100% { transform: rotate(360deg) translateX(0); opacity: 0.6; }
+}
+
+/* Subtle pulsing effect for the text */
+@keyframes pulseText {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.03); opacity: 0.95; }
+}
+
+
 
 body {
   margin: 0;
