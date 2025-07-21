@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { FormsModule } from '@angular/forms';
+import { StoreComponent } from './components/store/store.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
     AboutComponent,
     PointsComponent,
     LoginComponent,
-    RegisterComponent],
+    RegisterComponent,
+    StoreComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
