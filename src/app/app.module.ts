@@ -12,6 +12,7 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { FormsModule } from '@angular/forms';
 import { TeamsComponent } from './components/teams/teams.component';
+import { StoreComponent } from './components/store/store.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TeamsComponent } from './components/teams/teams.component';
     PointsComponent,
     LoginComponent,
     RegisterComponent,
-    TeamsComponent],
+    TeamsComponent,
+    StoreComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

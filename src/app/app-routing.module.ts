@@ -6,6 +6,7 @@ import { PointsComponent } from './components/points/points.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { TeamsComponent } from './components/teams/teams.component';
+import { StoreComponent } from './components/store/store.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'teams', component: TeamsComponent },
+  { path: 'store', component: StoreComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
