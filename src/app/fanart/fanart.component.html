@@ -1,0 +1,9 @@
+<h1>See our collection of Hakistat.com Fanart!</h1>
+
+<div class="gallery">
+  <div *ngFor="let art of fanartCollection" class="fanart-item">
+    <img [src]="art.imageUrl"
+    [alt]="art.title" />
+    <h2>{{ art.title }}</h2>
+    <p>By {{ art.artist }}</p>
+  </div>

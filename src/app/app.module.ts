@@ -13,6 +13,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { FormsModule } from '@angular/forms';
 import { TeamsComponent } from './components/teams/teams.component';
 import { StoreComponent } from './components/store/store.component';
+import { FanartComponent } from './fanart/fanart.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { StoreComponent } from './components/store/store.component';
     LoginComponent,
     RegisterComponent,
     TeamsComponent,
-    StoreComponent],
+    StoreComponent,
+    FanartComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

@@ -2,6 +2,15 @@
 /* === Global Theming === */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
+:host {
+  display: block;
+  background-color: #4b0082; /* deep purple */
+  color: #7fff00;            /* chartreuse green */
+  padding: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
 .fancy-banner {
   font-family: 'Dancing Script', cursive;
   background: linear-gradient(135deg, #0db47a, #f39aff);
@@ -68,6 +77,7 @@
 
 
 body {
+  padding-left: 2rem;
   margin: 0;
   background-color: #4b0082;   /* deep purple */
   color: #7fff00;              /* chartreuse green */
