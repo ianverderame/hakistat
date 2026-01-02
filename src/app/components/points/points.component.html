@@ -3,22 +3,17 @@
 <table>
   <thead>
     <tr>
-      <th>Noob</th>
-      <th>Score</th>
+      <th>Username</th>
+      <th>Haki Points</th>
       <th>Rank</th>
-      <th>Elbows</th>
-      <th>Knees</th>
-      <th>Feet</th>
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let entry of pointsData">
-      <td>{{ entry.noob }}</td>
-      <td>{{ entry.score }}</td>
-      <td>{{ entry.rank }}</td>
-      <td>{{ entry.elbowCount }}</td>
-      <td>{{ entry.kneeCount }}</td>
-      <td>{{ entry.feetCount }}</td>
+    <tr *ngFor="let user of leaderboard">
+      <td>{{ user.username }}</td>
+      <td>{{ user.total_haki_points }}</td>
+      <td>{{ user.user_rank_cache.ranks.name }}</td>
     </tr>
   </tbody>
 </table>
+
