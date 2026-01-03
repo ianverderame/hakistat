@@ -10,15 +10,8 @@ constructor(private supabaseService: SupabaseService) {}
 
 async getLeaderboard() {
   const { data, error } = await this.supabaseService.client
-    .from('profiles')
-    .select(`
-      username,
-      total_haki_points,
-      user_rank_cache (
-        rank_id,
-        ranks (name)
-      )
-    `)
+    .from('leaderboard_view')
+    .select('username, total_haki_points, rank')
     .order('total_haki_points', { ascending: false });
 
   if (error) {
